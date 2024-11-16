@@ -1,0 +1,9 @@
+# Ignore all hidden files and directories at the root level
+/.*
+# Exceptions for specific files to keep in version control
+!.gitignore
+
+# Ignore common system and user-specific files
+*.DS_Store
+*.Trash/
+*.log
